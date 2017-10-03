@@ -65,12 +65,20 @@ namespace Week2_day1
             //Console.WriteLine(weekdays[1].Length);
 
 
-            Char[] lastname = { 'P', 'a', 'w', 'l', 'o', 's', 'k', 'i' };
-            Console.WriteLine(lastname.Length);
+            //Char[] lastname = { 'P', 'a', 'w', 'l', 'o', 's', 'k', 'i' };
+            //Console.WriteLine(lastname.Length);
 
-            String[] moreWords = { "word", "stuff", "thing", "Memes", "word" };
-            int wordsLength = moreWords.Length;
-            Console.WriteLine(moreWords[wordsLength - 2]);
+            //String[] moreWords = { "word", "stuff", "thing", "Memes", "word" };
+            //int wordsLength = moreWords.Length;
+            //Console.WriteLine(moreWords[wordsLength - 2]);
+
+            Console.WriteLine("Please enter an array size.");
+            int arraySize = int.Parse(Console.ReadLine());
+
+            int[] newArray = new int[arraySize];
+
+            Console.WriteLine("The length of the array is " + newArray.Length);
+
 
 
 

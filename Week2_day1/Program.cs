@@ -1,4 +1,4 @@
-﻿using System; 
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,15 +30,51 @@ namespace Week2_day1
 
             //String[] firstInitials = { "D", "L", "B", "R" };
 
-            int[] numbers = new int[4];
-            numbers[0] = 43;
-            numbers[1] = 12;
-            Console.WriteLine("Please enter a number.");
-            numbers[2] = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter a number.");
-            numbers[3] = int.Parse(Console.ReadLine());
+            //int[] numbers = new int[4];
+            //numbers[0] = 43;
+            //numbers[1] = 12;
+            //Console.WriteLine("Please enter a number.");
+            //numbers[2] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter a number.");
+            //numbers[3] = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(numbers[3]);
+            //numbers[3] = 30;
+
+            //Console.WriteLine(numbers[3]);
+
+
+
+            //String[] weekdays = new string[7];
+            //weekdays[0] = "Mon";
+            //weekdays[1] = "Tues";
+            //weekdays[2] = "Wed";
+            //weekdays[3] = "Thur";
+            //weekdays[4] = "Fri";
+            //weekdays[5] = "Sat";
+            //weekdays[6] = "Sun";
+
+            //int[] studentAges = new int[5];
+            //studentAges[0] = 11;
+            //studentAges[1] = 14;
+            //studentAges[2] = 21;
+            //studentAges[3] = 17;
+            //studentAges[4] = 9;
+
+
+            //Console.WriteLine(weekdays.Length);
+            //Console.WriteLine(weekdays[1].Length);
+
+
+            Char[] lastname = { 'P', 'a', 'w', 'l', 'o', 's', 'k', 'i' };
+            Console.WriteLine(lastname.Length);
+
+            String[] moreWords = { "word", "stuff", "thing", "Memes", "word" };
+            int wordsLength = moreWords.Length;
+            Console.WriteLine(moreWords[wordsLength - 2]);
+
+
+
+
 
         }
     }

@@ -72,13 +72,58 @@ namespace Week2_day1
             //int wordsLength = moreWords.Length;
             //Console.WriteLine(moreWords[wordsLength - 2]);
 
-            Console.WriteLine("Please enter an array size.");
-            int arraySize = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter an array size.");
+            //int arraySize = int.Parse(Console.ReadLine());
 
-            int[] newArray = new int[arraySize];
+            //int[] newArray = new int[arraySize];
 
-            Console.WriteLine("The length of the array is " + newArray.Length);
+            //Console.WriteLine("The length of the array is " + newArray.Length);
 
+            //String[] birthMonths = { "October", "July", "October", "May" };
+            //Console.WriteLine(Array.IndexOf(birthMonths, "October"));
+
+
+            //int[] numbers = { 2, 3, 9, 4, 3, 4, 6, 5 };
+            //Console.WriteLine(Array.LastIndexOf(numbers, 4));
+
+            //Array.Reverse(numbers);
+            //Console.WriteLine(numbers[0]);
+
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[numbers.Length - 1]);
+
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.Write(numbers[i] + " ");
+            //}
+            //Console.WriteLine();
+
+            //Array.Reverse(numbers);
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    Console.Write(numbers[i] + " ");
+            //}
+            //Console.WriteLine();
+
+
+            String[] names = { "Nate", "Dan", "Ali", "Brian", "Monica" };
+            Console.WriteLine(Array.IndexOf(names, "Brian"));
+
+            int[] luckyNumbers = { 7, 13, 21, 12, 12, 13, 7, 21 };
+            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 13));
+
+            Char[] characters = { 'A', 'B', 'D', 'R', 'N', 'M' };
+            Console.WriteLine(characters[0]);
+            Array.Reverse(characters);
+            Console.WriteLine(characters[0]);
+
+            String[] studentNames = { "Dan", "Nathan", "Brian", "Ali" };
+            Array.Sort(studentNames);
+            Console.WriteLine(studentNames[0] + " " + studentNames[studentNames.Length - 1]);
+
+            int[] favoriteNumbers = { 7, 2, 1, 21, 13, 92, 99, 79 };
+            Array.Sort(favoriteNumbers);
+            Console.WriteLine(favoriteNumbers[0] + " " + favoriteNumbers[favoriteNumbers.Length - 1]);
 
 
 
